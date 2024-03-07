@@ -7,5 +7,4 @@ int main()
     cin >> n >> m >> a;
 
     cout << fixed << setprecision(0) << ceil(n / a) * ceil(m / a);
-    // cout << ceil(n/a)*ceil() ;
 }
