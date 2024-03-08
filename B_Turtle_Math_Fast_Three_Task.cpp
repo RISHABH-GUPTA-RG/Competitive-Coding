@@ -26,7 +26,7 @@ int main()
             for (int i = 0; i < n; i++)
             {
                 if ((sum - arr[i]) % 3 == 0)
-                {
+                {      
                     flag = 1;
                     break;
                 }
@@ -35,7 +35,7 @@ int main()
                 cout << 1;
             else
             {
-                if ((3 - rem) < 2)
+                if ((3 - rem) == 1)
                     cout << 1;
                 else
                     cout << 2;
