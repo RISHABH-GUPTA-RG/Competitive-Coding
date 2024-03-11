@@ -1,3 +1,7 @@
 .cph/
 *.bin
 *.exe
+*.class
+test.cpp
+test.java
+test.py
