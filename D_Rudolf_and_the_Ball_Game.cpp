@@ -29,10 +29,7 @@ int main() {
 
         std::cout << s.size() << std::endl;
 
-        std::vector<int> sorted_s(s.begin(), s.end());
-        std::sort(sorted_s.begin(), sorted_s.end());
-
-        for (auto i : sorted_s)
+        for (auto i : s)
             std::cout << i + 1 << " ";
         std::cout << std::endl;
     }
